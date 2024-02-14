@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TEMPLATES/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPLATES/users/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalBudget/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalBudget/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_page/static/home_page/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_page/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_page/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +162,7 @@
       <workItem from="1707900765784" duration="74000" />
       <workItem from="1707900850214" duration="84000" />
       <workItem from="1707901072696" duration="1809000" />
-      <workItem from="1707902923140" duration="4944000" />
+      <workItem from="1707902923140" duration="5272000" />
     </task>
     <servers />
   </component>
