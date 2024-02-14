@@ -18,8 +18,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 # We always want to use include() for including URLs patterns, 'admin.site.urls' is the only exception to this
+# We use this patter so that we can include all the URLs from an app to the main app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home_page.urls')),
+    path('', include('users.urls')),
 ]

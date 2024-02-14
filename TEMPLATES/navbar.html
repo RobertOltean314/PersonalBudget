@@ -4,7 +4,7 @@
 -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="{% url 'home_page:home_page' %}">Personal Budgeting Tool</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -12,39 +12,49 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             {% if user.is_authenticated %}
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-6">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{% url 'home_page:home_page' %}">Home</a>
+                        <a class="nav-link active" href="{% url 'home_page:home_page' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Account</a>
+                        <a class="nav-link active" href="#">Account</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="true">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
                             Transactions
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Create Transaction</a></li>
-                            <li><a class="dropdown-item" href="#">View Transactions</a></li>
+                            <li><a class="dropdown-item" href="#">Your Transactions</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Create a new Transaction</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Settings
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Update Profile</a></li>
                         </ul>
                     </li>
                 </ul>
-                <ul class="navbar-nav ml-auto">
+            {% endif %}
 
-            {% endif %}
-            {% if user.is_authenticated %}
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Logout</a>
-                </li>
-            {% else %}
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="{% url 'register' %}">Register</a>
-                </li>
-            {% endif %}
+            <ul class="navbar-nav ml-auto">
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'users:logout' %}">Logout</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'users:login' %}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'users:register' %}">Register</a>
+                    </li>
+                {% endif %}
             </ul>
         </div>
     </div>
