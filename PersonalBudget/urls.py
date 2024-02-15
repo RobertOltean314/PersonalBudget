@@ -16,6 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
+from django.conf import settings
 
 # We always want to use include() for including URLs patterns, 'admin.site.urls' is the only exception to this
 # We use this patter so that we can include all the URLs from an app to the main app
@@ -25,3 +27,6 @@ urlpatterns = [
     path('', include('home_page.urls')),
     path('', include('users.urls')),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

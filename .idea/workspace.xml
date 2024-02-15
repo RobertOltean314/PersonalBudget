@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TEMPLATES/users/account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PersonalBudget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PersonalBudget.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/IMAGES/NVIDIA_logo_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/IMAGES/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/default.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonalBudget/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalBudget/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/IMAGES/default.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
@@ -59,32 +61,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.PersonalBudget.executor": "Run",
-    "Django tests.Test: home_page.tests.HomePageTest.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "old__branch",
-    "last_opened_file_path": "C:/Users/EOLTEAR8G/OneDrive - NTT DATA EMEAL/Escritorio/Proiecte/PersonalBudgetTool",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.PersonalBudget.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: home_page.tests.HomePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/EOLTEAR8G/OneDrive - NTT DATA EMEAL/Escritorio/Proiecte/PersonalBudgetTool&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\EOLTEAR8G\OneDrive - NTT DATA EMEAL\Escritorio\Proiecte\PersonalBudget\home_page\static\home_page\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EOLTEAR8G\OneDrive - NTT DATA EMEAL\Escritorio\Proiecte\PersonalBudget\media" />
+      <recent name="C:\Users\EOLTEAR8G\OneDrive - NTT DATA EMEAL\Escritorio\Proiecte\PersonalBudget\media\IMAGES" />
       <recent name="C:\Users\EOLTEAR8G\OneDrive - NTT DATA EMEAL\Escritorio\Proiecte\PersonalBudget\TEMPLATES\homePage" />
     </key>
   </component>
@@ -205,6 +209,14 @@
       <workItem from="1707924321956" duration="16000" />
       <workItem from="1707924351194" duration="1033000" />
       <workItem from="1707928551679" duration="883000" />
+      <workItem from="1707991885871" duration="1523000" />
+      <workItem from="1707993458750" duration="80000" />
+      <workItem from="1707993596176" duration="916000" />
+      <workItem from="1707994531104" duration="21000" />
+      <workItem from="1707994578357" duration="12000" />
+      <workItem from="1707994624451" duration="359000" />
+      <workItem from="1707995052149" duration="31000" />
+      <workItem from="1707995096239" duration="1052000" />
     </task>
     <servers />
   </component>
