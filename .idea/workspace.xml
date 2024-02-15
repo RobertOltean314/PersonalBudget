@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/IMAGES/NVIDIA_logo_R.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/IMAGES/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPLATES/users/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/IMAGES/Rarry.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalBudget/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalBudget/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/IMAGES/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
@@ -34,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -216,7 +211,7 @@
       <workItem from="1707994578357" duration="12000" />
       <workItem from="1707994624451" duration="359000" />
       <workItem from="1707995052149" duration="31000" />
-      <workItem from="1707995096239" duration="1052000" />
+      <workItem from="1707995096239" duration="3872000" />
     </task>
     <servers />
   </component>

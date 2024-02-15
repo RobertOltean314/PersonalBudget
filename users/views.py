@@ -41,20 +41,33 @@ def logout_view(request):
 @login_required
 def update_profile(request):
     if request.method == 'POST':
+        # Populate the forms with the current user's data
         u_form = UserUpdateForm(request.POST, instance=request.user)
         p_form = ProfileUpdateForm(request.POST, request.FILES, instance=request.user.profile)
-        if u_form.is_valid() and p_form:
+        # Check if both forms are valid
+        if u_form.is_valid() and p_form.is_valid():
+            # Save the updated user and profile data
             u_form.save()
             p_form.save()
+            # Display a success message
             messages.success(request, f'Your account has been updated!')
+            # Redirect to the update-profile page
             return redirect('users:update-profile')
     else:
+        # Create forms with the current user's data (GET request)
         u_form = UserUpdateForm(instance=request.user)
         p_form = ProfileUpdateForm(instance=request.user.profile)
 
+    # Prepare the context to render the template
     context = {
         'u_form': u_form,
         'p_form': p_form
     }
 
+    # Render the update_profile template with the provided context
     return render(request, 'users/update_profile.html', context)
+
+
+def profile(request):
+    # Render the profile template without any context data
+    return render(request, 'users/profile.html')
