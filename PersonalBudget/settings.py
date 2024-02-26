@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'home_page',
     'users',
     'transactions',
+    'budget',
 ]
 
 MIDDLEWARE = [

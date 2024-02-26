@@ -4,49 +4,51 @@
 {% block title %} List of transactions {% endblock %}
 
 {% block content %}
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <table class="table table-hover">
-                    <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Description</th>
-                        <th>Amount</th>
-                        <th>Type</th>
-                        <th>Category</th>
-                        <th>Options</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {% for transaction in all_transactions %}
+    <div class="list-of-transactions">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-hover">
+                        <thead>
                         <tr>
-                            <td>{{ transaction.date|date:"d-m-y" }}</td>
-                            <td>{{ transaction.description }}</td>
-                            <td>{{ transaction.amount }} RON</td>
-                            <td>{{ transaction.amount_type }}</td>
-                            <td>{{ transaction.category }}</td>
-                            <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-primary dropdown-toggle" type="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                        More Actions
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item"
-                                               href="{% url 'transactions:update-transaction' transaction.id %}">Update</a>
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                               href="{% url 'transactions:delete-transaction' transaction.id %}">Delete</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </td>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Type</th>
+                            <th>Category</th>
+                            <th>Options</th>
                         </tr>
-                    {% endfor %}
+                        </thead>
+                        <tbody>
+                        {% for transaction in all_transactions %}
+                            <tr>
+                                <td>{{ transaction.date|date:"d-m-y" }}</td>
+                                <td>{{ transaction.description }}</td>
+                                <td>{{ transaction.amount }} RON</td>
+                                <td>{{ transaction.amount_type }}</td>
+                                <td>{{ transaction.category }}</td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                            More Actions
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                   href="{% url 'transactions:update-transaction' transaction.id %}">Update</a>
+                                            </li>
+                                            <li><a class="dropdown-item"
+                                                   href="{% url 'transactions:delete-transaction' transaction.id %}">Delete</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

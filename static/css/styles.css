@@ -1,0 +1,29 @@
+#backgroundImage {
+    width: 120%;
+    height: 120%;
+}
+
+.profile-container {
+    background-color: #F8F8F8;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.list-of-transactions {
+    background-color: #F8F8F8;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.create-transaction {
+    margin: auto;
+    width: 150%;
+}

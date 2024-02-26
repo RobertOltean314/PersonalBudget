@@ -27,6 +27,7 @@ urlpatterns = [
     path('', include('home_page.urls')),
     path('', include('users.urls')),
     path('', include('transactions.urls')),
+    path('', include('budget.urls')),
 ]
 
 if settings.DEBUG:
