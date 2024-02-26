@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TEMPLATES/budget/budget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalBudget/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalBudget/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalBudget/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/home_page/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/home_page/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/create_transaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/create_transaction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/list_of_transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/list_of_transactions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/transactions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/budget/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +214,7 @@
       <workItem from="1708090696690" duration="12000" />
       <workItem from="1708090723786" duration="6394000" />
       <workItem from="1708272983729" duration="4027000" />
-      <workItem from="1708948891290" duration="6798000" />
+      <workItem from="1708948891290" duration="7118000" />
     </task>
     <servers />
   </component>
