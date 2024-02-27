@@ -14,20 +14,10 @@
             {% if user.is_authenticated %}
                 <ul class="navbar-nav me-auto mb-6">
                     <li class="nav-item">
-                        <a class="nav-link active" href="{% url 'users:profile' %}">Profile</a>
+                        <a class="nav-link active" href="{% url 'budget:budget' %}">Your Budget</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
-                            Transactions
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{% url 'transactions:list-of-transactions' %}">Your
-                                Transactions</a>
-                            </li>
-                            <li><a class="dropdown-item" href="{% url 'transactions:create-transaction' %}">Create a new
-                                Transaction</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'users:profile' %}">Profile</a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
@@ -38,9 +28,6 @@
                             <li><a class="dropdown-item" href="#">Change Password</a></li>
                             <li><a class="dropdown-item" href="#">Change Theme</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="{% url 'budget:budget' %}">Your Budget</a>
                     </li>
                 </ul>
             {% endif %}

@@ -15,7 +15,7 @@
 
 .list-of-transactions {
     background-color: #F8F8F8;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -23,7 +23,52 @@
     border-radius: 10px;
 }
 
+.transaction-table {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.transaction-table table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.transaction-table thead th,
+.transaction-table tbody td {
+    text-align: center;
+    padding: 8px;
+}
+
+
 .create-transaction {
     margin: auto;
     width: 150%;
+}
+
+.update-transaction {
+    margin: auto;
+    width: 150%;
+}
+
+.delete-transaction {
+    margin: auto;
+    width: 150%;
+}
+
+.budget {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#income {
+    color: green;
+}
+
+#expense {
+    color: red;
 }

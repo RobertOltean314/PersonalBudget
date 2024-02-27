@@ -10,7 +10,7 @@
                 <form method="post" action="{% url 'users:logout' %}">
                     {% csrf_token %}
                     <button type="submit" class="btn btn-danger">Logout</button>
-                    <a class="btn btn-secondary ml-2" href="{% url 'users:login' %}">Cancel</a>
+                    <a class="btn btn-secondary ml-2" href="{% url 'home_page:home_page' %}">Cancel</a>
                 </form>
             </div>
         </div>

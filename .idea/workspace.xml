@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/media/IMAGES/Rarry_Q07aSxn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/IMAGES/girlAvatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/budget/budget.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/budget/budget.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budget/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/budget/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/delete_transaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/delete_transaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/list_of_transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/list_of_transactions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/update_transaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/update_transaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/budget/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +224,8 @@
       <workItem from="1708090696690" duration="12000" />
       <workItem from="1708090723786" duration="6394000" />
       <workItem from="1708272983729" duration="4027000" />
-      <workItem from="1708948891290" duration="7118000" />
+      <workItem from="1708948891290" duration="7258000" />
+      <workItem from="1709035715211" duration="8212000" />
     </task>
     <servers />
   </component>

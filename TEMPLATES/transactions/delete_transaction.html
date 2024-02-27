@@ -4,7 +4,7 @@
 
 {% block content %}
 
-    <div class="container-fluid">
+    <div class="container-fluid delete-transaction">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <br><br>
@@ -19,7 +19,8 @@
                         </div>
                         <div class="card-footer text-center">
                             <button type="submit" class="btn btn-outline-danger">Yes</button>
-                            <a href="{% url 'transactions:list-of-transactions' %}" class="btn btn-outline-secondary">No</a>
+                            <a href="{% url 'transactions:list-of-transactions' %}"
+                               class="btn btn-outline-secondary">No</a>
                         </div>
                     </form>
 

@@ -3,7 +3,8 @@
 {% block title %} Update Transaction {% endblock %}
 
 {% block content %}
-    <div class="container-fluid">
+
+    <div class="container-fluid update-transaction">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <br><br>
@@ -18,11 +19,13 @@
                         </div>
                         <div class="card-footer text-center">
                             <button type="submit" class="btn btn-outline-success">Update info</button>
-                            <a href="{% url 'transactions:list-of-transactions' %}" class="btn btn-outline-secondary">Cancel</a>
+                            <a href="{% url 'transactions:list-of-transactions' %}"
+                               class="btn btn-outline-secondary">Cancel</a>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
 {% endblock %}
