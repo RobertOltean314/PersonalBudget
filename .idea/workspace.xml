@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budget/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/budget/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/transactions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.PersonalBudget.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: home_page.tests.HomePageTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/EOLTEAR8G/OneDrive - NTT DATA EMEAL/Escritorio/Proiecte/PersonalBudgetTool&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.PersonalBudget.executor": "Debug",
+    "Django tests.Test: home_page.tests.HomePageTest.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/EOLTEAR8G/OneDrive - NTT DATA EMEAL/Escritorio/Proiecte/PersonalBudgetTool",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\EOLTEAR8G\OneDrive - NTT DATA EMEAL\Escritorio\Proiecte\PersonalBudget\home_page\static\home_page\images" />
@@ -219,6 +218,8 @@
       <workItem from="1708948891290" duration="7258000" />
       <workItem from="1709035715211" duration="8272000" />
       <workItem from="1709049117199" duration="183000" />
+      <workItem from="1709104208739" duration="298000" />
+      <workItem from="1709105604785" duration="4452000" />
     </task>
     <servers />
   </component>

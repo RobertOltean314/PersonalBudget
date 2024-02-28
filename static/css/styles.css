@@ -1,3 +1,8 @@
+body {
+    background-color: #6BF5FF;
+}
+
+
 #backgroundImage {
     width: 120%;
     height: 120%;
@@ -5,38 +10,44 @@
 
 .profile-container {
     background-color: #F8F8F8;
-    padding: 20px;
+    padding: 2%;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+    text-align: center;
 }
+
+.profile-container div {
+    margin-bottom: 2%; /* Adjust this value as needed */
+}
+
 
 .list-of-transactions {
     background-color: #F8F8F8;
-    padding: 10px;
+    padding: 1%;
     position: fixed;
-    top: 50%;
+    top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 10px;
+    border-radius: 5%;
 }
 
 .transaction-table {
-    max-height: 600px;
+    max-height: 50vh;
     overflow-y: auto;
 }
 
 .transaction-table table {
-    width: 100%;
+    width: 60vw;
     table-layout: fixed;
 }
 
 .transaction-table thead th,
 .transaction-table tbody td {
     text-align: center;
-    padding: 8px;
+    padding: 0;
 }
 
 
@@ -57,11 +68,14 @@
 
 .budget {
     position: fixed;
-    top: 10%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    padding: 20px;
-    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 50vh;
+    padding: 2vw;
+    border-radius: 1vw;
+    overflow: auto;
 }
 
 

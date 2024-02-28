@@ -13,8 +13,18 @@
             <form method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 <div class="card-body">
-                    {{ u_form.as_p }}
-                    {{ p_form.as_p }}
+                    {% for field in u_form %}
+                        <div>
+                            {{ field.label_tag }}
+                            {{ field }}
+                        </div>
+                    {% endfor %}
+                    {% for field in p_form %}
+                        <div>
+                            {{ field.label_tag }}
+                            {{ field }}
+                        </div>
+                    {% endfor %}
                 </div>
                 <div class="card-footer text-center">
                     <a href="{% url 'users:profile' %}" class="btn btn-secondary">Back</a>
