@@ -1,5 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
+
+
 # Create your models here.
 
 class Budget(models.Model):
@@ -11,4 +13,3 @@ class Budget(models.Model):
     def update_balance(self):
         self.current_balance = self.total_income - self.total_expenses
         self.save()
-        # TODO There is a bug, when a transaction is deleted, the budget doesn't update

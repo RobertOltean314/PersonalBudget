@@ -78,6 +78,11 @@ body {
     overflow: auto;
 }
 
+.card-footer {
+    display: flex; /* or display: grid */
+    justify-content: center;
+    margin-top: 1em; /* Optional: Add space above the button */
+}
 
 #income {
     color: green;

@@ -40,8 +40,7 @@
                                         <td>
                                             <div class="dropdown">
                                                 <button class="btn btn-primary dropdown-toggle" type="button"
-                                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                                    More Actions
+                                                        data-bs-toggle="dropdown" aria-expanded="false"> More Actions
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item"
@@ -53,10 +52,15 @@
                                                 </ul>
                                             </div>
                                         </td>
-                                    </tr>
-                                {% endfor %}
+                                    </tr> {% endfor %}
                                 </tbody>
                             </table>
+                        </div>
+                        <div class="card-footer">
+                            <form method="post" action="{% url 'transactions:reset-budget' %}">
+                                {% csrf_token %}
+                                <button type="submit" class="center-button">Reset Budget</button>
+                            </form>
                         </div>
                     </div>
 
