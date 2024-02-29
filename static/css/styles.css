@@ -84,6 +84,22 @@ body {
     margin-top: 1em; /* Optional: Add space above the button */
 }
 
+.home-page {
+    position: fixed;
+    left: 35%;
+    top: 10%;
+    text-align: center;
+}
+
+.row {
+    display: flex; /* Use flexbox to create columns */
+}
+
+.column {
+    flex: 1; /* Equal width for each column */
+    padding: 10px; /* Add spacing between columns */
+}
+
 #income {
     color: green;
 }

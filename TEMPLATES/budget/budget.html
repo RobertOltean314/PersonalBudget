@@ -1,27 +1,52 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <div class="home-page">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="main-text">
+                    Hello! I hope you will enjoy this <br>Personal Budget Tool!
+                </h1>
+            </div>
+            <div class="budget">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <h1>Your Budget</h1>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="row">
+                                    <!-- Column 1 -->
+                                    <div class="column">
+                                        <h4>Current Balance: {{ budget.current_balance }}</h4>
+                                        <h6 id="income">Total Income: {{ budget.total_income }}</h6>
+                                        <h6 id="expense">Total Expenses: {{ budget.total_expenses }}</h6>
+                                    </div>
+                                    <!-- Column 2 -->
+                                    <div class="column">
+                                        <!--Insert Chestie -->
+                                    </div>
+                                    <!-- Column 3 -->
+                                    <div class="column">
+                                        <!--Insert Chestie -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="{% url 'transactions:create-transaction' %}" class="btn btn-outline-success">Add
+                                    a new transaction</a>
+                                <a href="{% url 'transactions:list-of-transactions' %}" class="btn btn-outline-primary">Your
+                                    Transactions</a>
+                            </div>
+                        </div>
 
-    <div class="budget">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="card">
-                    <div class="card-header text-center">
-                        <h1>Your Budget</h1>
-                    </div>
-                    <div class="card-body text-center">
-                        <h4>Current Balance: {{ budget.current_balance }}</h4>
-                        <h6 id="income">Total Income: {{ budget.total_income }}</h6>
-                        <h6 id="expense">Total Expenses: {{ budget.total_expenses }}</h6>
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="{% url 'transactions:create-transaction' %}" class="btn btn-outline-success">Add a new
-                            transaction</a>
-                        <a href="{% url 'transactions:list-of-transactions' %}" class="btn btn-outline-primary">Your
-                            Transactions</a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
+
+
 {% endblock %}
