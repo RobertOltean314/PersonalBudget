@@ -64,8 +64,23 @@ class TransactionUpdateView(LoginRequiredMixin, UpdateView):
     form_class = TransactionUpdateForm
     success_url = reverse_lazy('transactions:list-of-transactions')
 
-    def get_queryset(self):
-        return Transaction.objects.filter(user=self.request.user)
+    def form_valid(self, form):
+        # Automatically associate the transaction with the logged-in user
+        form.instance.user = self.request.user
+
+        # Get the original transaction amount before the update
+        original_amount = self.get_object().amount
+
+        # Update the budget based on the transaction type
+        if form.instance.amount_type == 'income':
+            self.request.user.budget.total_income += (form.instance.amount - original_amount)
+        elif form.instance.amount_type == 'expenses':
+            self.request.user.budget.total_expenses += (form.instance.amount - original_amount)
+
+        # Recalculate the budget's current balance
+        self.request.user.budget.update_balance()
+
+        return super().form_valid(form)
 
 
 class TransactionDeleteView(LoginRequiredMixin, DeleteView):
