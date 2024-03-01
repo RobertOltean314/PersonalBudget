@@ -1,4 +1,5 @@
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.hashers import make_password
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .forms import UserRegistrationForm, ProfileUpdateForm, UserUpdateForm
@@ -71,3 +72,22 @@ def update_profile(request):
 def profile(request):
     # Render the profile template without any context data
     return render(request, 'users/profile.html')
+
+
+@login_required
+def reset_password(request):
+    if request.method == 'POST':
+        new_password = request.POST['new_password']
+        confirm_new_password = request.POST['confirm_new_password']
+
+        if new_password != confirm_new_password:
+            # New passwords do not match
+            return render(request, 'users/reset_password.html', {'error': 'New passwords do not match'})
+
+        # Update the user's password
+        request.user.password = make_password(new_password)
+        request.user.save()
+
+        return redirect('users:login')  # Redirect to login page after successful password reset
+
+    return render(request, 'users/reset_password.html')
