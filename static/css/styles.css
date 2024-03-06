@@ -1,5 +1,5 @@
 body {
-    background-color: #6BF5FF;
+    background-color: #C3FBFF;
 }
 
 
@@ -9,6 +9,17 @@ body {
 }
 
 .profile-container {
+    background-color: #F8F8F8;
+    padding: 2%;
+    position: fixed;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.update-profile-container {
     background-color: #F8F8F8;
     padding: 2%;
     position: fixed;
@@ -84,12 +95,17 @@ body {
     margin-top: 1em; /* Optional: Add space above the button */
 }
 
-.home-page {
+.home-page-label {
+    border-radius: 25px;
     position: fixed;
-    left: 35%;
-    top: 10%;
+    left: 15%;
+    top: 25%;
     text-align: center;
+    background-color: #f0f0f0; /* Set a background color for testing */
+    padding: 20px; /* Add some padding to see the effect */
+    box-sizing: border-box; /* Ensure proper box sizing */
 }
+
 
 .row {
     display: flex; /* Use flexbox to create columns */
@@ -106,4 +122,57 @@ body {
 
 #expense {
     color: red;
+}
+
+#main-text {
+    font-family: "Monaco", Monospace, monospace;
+}
+
+#sub-text {
+    font-family: "Garamond", Serif, serif;
+}
+
+.budget-button {
+    border-radius: 25px;
+    position: fixed;
+    left: 20%;
+    top: 50%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Additional styling for the link */
+.budget-link {
+    display: block; /* Ensures the entire button area is clickable */
+    text-decoration: none; /* Remove underlines from the link */
+    color: #333; /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Hover effect: Change background color when hovering over the link */
+.budget-link:hover {
+    background-color: #ddd;
+}
+
+.reset-password-button {
+    border-radius: 25px;
+    position: fixed;
+    left: 18.5%;
+    top: 60%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.stonks-image {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: scale(0.5);
+  transform-origin: bottom right;
 }

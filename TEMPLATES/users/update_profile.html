@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="profile-container">
+    <div class="update-profile-container">
         <div class="content-section">
             <div class="media">
                 <img class="rounded-circle account-img" src="{{ user.profile.image.url }}" alt="">
@@ -27,7 +27,7 @@
                     {% endfor %}
                 </div>
                 <div class="card-footer text-center">
-                    <a href="{% url 'users:profile' %}" class="btn btn-secondary">Back</a>
+                    <a href="{% url 'home_page:home_page' %}" class="btn btn-secondary">Back</a>
                     <button type="submit" class="btn btn-success">Update</button>
                 </div>
             </form>
