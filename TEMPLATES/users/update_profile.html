@@ -3,34 +3,38 @@
 {% block content %}
     <div class="update-profile-container">
         <div class="content-section">
-            <div class="media">
-                <img class="rounded-circle account-img" src="{{ user.profile.image.url }}" alt="">
-                <div class="media-body">
-                    <h2 class="account-heading">{{ user.username }}</h2>
-                    <p class="text-secondary">{{ user.email }}</p>
+            <div class="card">
+                <div class="card-header">
+                    <div class="media">
+                        <img class="rounded-circle account-img" src="{{ user.profile.image.url }}" alt="">
+                        <div class="media-body">
+                            <h2 class="account-heading">{{ user.username }}</h2>
+                            <p class="text-secondary">{{ user.email }}</p>
+                        </div>
+                    </div>
                 </div>
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="card-body">
+                        {% for field in u_form %}
+                            <div>
+                                {{ field.label_tag }}
+                                {{ field }}
+                            </div>
+                        {% endfor %}
+                        {% for field in p_form %}
+                            <div>
+                                {{ field.label_tag }}
+                                {{ field }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="{% url 'home_page:home_page' %}" class="btn btn-secondary">Back</a>
+                        <button type="submit" class="btn btn-success">Update</button>
+                    </div>
+                </form>
             </div>
-            <form method="post" enctype="multipart/form-data">
-                {% csrf_token %}
-                <div class="card-body">
-                    {% for field in u_form %}
-                        <div>
-                            {{ field.label_tag }}
-                            {{ field }}
-                        </div>
-                    {% endfor %}
-                    {% for field in p_form %}
-                        <div>
-                            {{ field.label_tag }}
-                            {{ field }}
-                        </div>
-                    {% endfor %}
-                </div>
-                <div class="card-footer text-center">
-                    <a href="{% url 'home_page:home_page' %}" class="btn btn-secondary">Back</a>
-                    <button type="submit" class="btn btn-success">Update</button>
-                </div>
-            </form>
         </div>
     </div>
 {% endblock %}

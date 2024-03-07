@@ -1,5 +1,5 @@
 body {
-    background-color: #C3FBFF;
+    background-color: white;
 }
 
 
@@ -9,12 +9,13 @@ body {
 }
 
 .profile-container {
-    background-color: #F8F8F8;
+    background-color: #C3FBFF;
     padding: 2%;
     position: fixed;
-    top: 40%;
+    top: 20%;
     left: 60%;
-    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 60%;
     border-radius: 10px;
     text-align: center;
 }
@@ -99,11 +100,11 @@ body {
     border-radius: 25px;
     position: fixed;
     left: 15%;
-    top: 25%;
+    top: 20%;
     text-align: center;
-    background-color: #f0f0f0; /* Set a background color for testing */
-    padding: 20px; /* Add some padding to see the effect */
-    box-sizing: border-box; /* Ensure proper box sizing */
+    background-color: #C3FBFF;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
@@ -125,7 +126,7 @@ body {
 }
 
 #main-text {
-    font-family: "Monaco", Monospace, monospace;
+    font-family: "Lucida Handwriting", Cursive, cursive;
 }
 
 #sub-text {
@@ -135,10 +136,10 @@ body {
 .budget-button {
     border-radius: 25px;
     position: fixed;
-    left: 20%;
-    top: 50%;
+    left: 18%;
+    top: 60%;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #C3FBFF;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -161,18 +162,18 @@ body {
 .reset-password-button {
     border-radius: 25px;
     position: fixed;
-    left: 18.5%;
-    top: 60%;
+    left: 16.5%;
+    top: 70%;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #C3FBFF;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.stonks-image {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transform: scale(0.5);
-  transform-origin: bottom right;
+.card-header {
+    background-color: #C3FBFF;
+}
+
+.card-footer {
+    background-color: #C3FBFF;
 }

@@ -57,25 +57,21 @@
                             </table>
                         </div>
                         <div class="card-footer">
+                            <a href="{% url 'budget:budget' %}" class="btn btn-success">Your Budget</a>
                             <form method="post" action="{% url 'transactions:reset-budget' %}" id="resetForm">
                                 {% csrf_token %}
-                                <button type="submit" class="center-button" onclick="return confirmReset()">Reset
+                                <button type="submit" class="btn btn-danger" onclick="return confirmReset()">Reset
                                     Budget
                                 </button>
                             </form>
                         </div>
-
-                        <script>
-                            function confirmReset() {
-                                return confirm('Are you sure you want to reset the budget?');
-                            }
-                        </script>
-
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
+    <script src="{% static 'js/scripts.js' %}"></script>
+
 {% endblock %}
 
