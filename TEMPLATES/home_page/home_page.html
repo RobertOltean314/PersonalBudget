@@ -1,33 +1,50 @@
-{% extends 'base.html' %}
-{% load static %}
+{% extends 'base.html' %} {% load static %} {% block content %}
 
-{% block content %}
-    <div class="home-page">
-        <div class="home-page-label">
-            <h1 id="main-text">Manage your<br>transactions</h1>
-            <h4 id="sub-text">Track your<br>incomes and expenses</h4>
-        </div>
+<div class="container-fluid">
+  <div class="row">
+    <!--Left side of the screen-->
+    <div class="left-side col-sm-4 col-md-4 col-lg-4 mb-2">
+      <div class="home-page-label">
+        <h1 id="main-text">Manage your<br />transactions</h1>
+        <h4 id="sub-text">Track your<br />incomes and expenses</h4>
+      </div>
+      <div class="budget-button">
+        <a href="{% url 'budget:budget' %}" class="budget-link"
+          >Take me to my Budget</a
+        >
+      </div>
 
-
-        <div class="budget-button">
-            <a href="{% url 'budget:budget' %}" class="budget-link">Take me to my Budget</a>
-        </div>
-
-        <div class="reset-password-button">
-            <a href="{% url 'users:reset-password' %}" class="budget-link">I want to change my password</a>
-        </div>
-
-        <div class="profile-container">
-            <div class="content-section">
-                <div class="media">
-                    <img class="rounded-circle account-img" src="{{ user.profile.image.url }}" alt="">
-                    <div class="media-body">
-                        <h2 class="account-heading">{{ user.username }}</h2>
-                        <p class="text-secondary">{{ user.email }}</p>
-                        <a href="{% url 'users:update-profile' %}" class="btn btn-success">Update Profile</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="reset-password-button">
+        <a href="{% url 'users:reset-password' %}" class="budget-link"
+          >I want to change my password</a
+        >
+      </div>
     </div>
+
+    <!--Right side of the scren-->
+    <div class="right-side col-sm-8 col-md-8 col-lg-8 mb-2">
+      <div class="profile-container">
+        <div class="content-section">
+          <div class="media">
+            <img
+              class="rounded-circle account-img"
+              src="{{ user.profile.image.url }}"
+              alt=""
+            />
+            <div class="media-body">
+              <h2 class="account-heading">{{ user.username }}</h2>
+              <p class="text-secondary">{{ user.email }}</p>
+              <a href="{% url 'users:update-profile' %}" class="btn btn-success"
+                >Update Profile</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% endblock %}
+
+<!--TODO: How CSS behaves with inharitance and overwritting-->
