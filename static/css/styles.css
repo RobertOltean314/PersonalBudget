@@ -1,6 +1,9 @@
-#backgroundImage {
-    width: 120%;
-    height: 120%;
+body{
+    background-color: #90e0ef;
+}
+
+.nav {
+    background-color: #00b4d8;
 }
 
 .alert{
@@ -8,7 +11,7 @@
 }
 
 .profile-container {
-    background-color: #C3FBFF;
+    background-color: #00b4d8;
     padding: 2%;
     position: fixed;
     top: 20%;
@@ -17,6 +20,7 @@
     height: 60%;
     border-radius: 10px;
     text-align: center;
+    color: white;
 }
 
 .update-profile-container {
@@ -101,7 +105,7 @@
     left: 15%;
     top: 20%;
     text-align: center;
-    background-color: #C3FBFF;
+    background-color: #00b4d8;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -124,20 +128,20 @@
 }
 
 #main-text {
-    font-family: "Lucida Handwriting", Cursive, cursive;
+    color: white
 }
 
 #sub-text {
-    font-family: "Garamond", Serif, serif;
+    color: white;
 }
 
 .budget-button {
     border-radius: 25px;
     position: fixed;
-    left: 18%;
+    left: 22%;
     top: 60%;
     text-align: center;
-    background-color: #C3FBFF;
+    background-color: #00b4d8;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -160,27 +164,18 @@
 .reset-password-button {
     border-radius: 25px;
     position: fixed;
-    left: 16.5%;
+    left: 20.5%;
     top: 70%;
     text-align: center;
-    background-color: #C3FBFF;
+    background-color: #00b4d8;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .card-header {
-    background-color: #C3FBFF;
+    background-color: #00b4d8;
 }
 
 .card-footer {
-    background-color: #C3FBFF;
+    background-color: #00b4d8;
 }
-
-.left-side {
-    background-color: aquamarine;
-}
-
-.right-side {
-    background-color: darkblue;
-}
-
