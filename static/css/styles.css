@@ -3,6 +3,10 @@
     height: 120%;
 }
 
+.alert{
+    text-align: center;
+}
+
 .profile-container {
     background-color: #C3FBFF;
     padding: 2%;
