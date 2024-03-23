@@ -46,7 +46,6 @@ body{
     top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 5%;
 }
 
 .transaction-table {
@@ -128,7 +127,9 @@ body{
 }
 
 #main-text {
-    color: white
+    color: white;
+    font-size: 72px;
+    font-family: 'Recoleta Black', sans-serif;
 }
 
 #sub-text {

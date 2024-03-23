@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="UI changes">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/budget/budget.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/budget/budget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/home_page/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/home_page/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/list_of_transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/list_of_transactions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/create_transaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/create_transaction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.PersonalBudget.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: home_page.tests.HomePageTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/EOLTEAR8G/OneDrive - NTT DATA EMEAL/Escritorio/Desktop Folder/Proiecte/PersonalBudget/static/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.PersonalBudget.executor": "Run",
+    "Django tests.Test: home_page.tests.HomePageTest.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Proiecte personale/PersonalBudget",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\EOLTEAR8G\OneDrive - NTT DATA EMEAL\Escritorio\Desktop Folder\Proiecte\PersonalBudget\static\img" />
@@ -241,6 +243,8 @@
       <workItem from="1709737044724" duration="1370000" />
       <workItem from="1709738458876" duration="4713000" />
       <workItem from="1709798500321" duration="2615000" />
+      <workItem from="1711199554716" duration="1498000" />
+      <workItem from="1711201232507" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="UI changes">
       <option name="closed" value="true" />
