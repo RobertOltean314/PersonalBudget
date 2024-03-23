@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb2d80-ea10-41d6-83ba-2c4d3358196e" name="Changes" comment="UI changes">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4ef7e580-3d8c-4b6d-b620-37940b058780.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEMPLATES/home_page/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/home_page/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/transactions/create_transaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/transactions/create_transaction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPLATES/users/update_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +239,7 @@
       <workItem from="1709738458876" duration="4713000" />
       <workItem from="1709798500321" duration="2615000" />
       <workItem from="1711199554716" duration="1498000" />
-      <workItem from="1711201232507" duration="695000" />
+      <workItem from="1711201232507" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="UI changes">
       <option name="closed" value="true" />
@@ -254,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709743336593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="UI changes">
+      <option name="closed" value="true" />
+      <created>1711201988462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711201988462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
